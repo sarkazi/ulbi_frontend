@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prettier-format": "prettier --config .prettierrc 'config/**/*.ts' --write",
+    "prettier": "prettier --config .prettierrc 'src/**/*.tsx' --write",
     "start": "webpack serve --env port=4444",
     "build:prod": "sudo webpack --env mode=production",
     "build:dev": "sudo webpack --env mode=development"

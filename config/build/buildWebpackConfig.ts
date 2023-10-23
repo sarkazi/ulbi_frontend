@@ -15,7 +15,7 @@ return {
   module: {
     rules: buildWebpackLoaders(options),
   },
-  resolve: buildWebpackResolvers(),
+  resolve: buildWebpackResolvers(options),
   output: {
     path: options.paths.build,
     filename: '[name].[contenthash].js',
